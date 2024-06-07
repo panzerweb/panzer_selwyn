@@ -1,0 +1,50 @@
+/* Mobile Devices */
+@media only screen and (max-width: 767px){
+    #ul-nav{
+        justify-content: flex-start !important;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    #hero-section img{
+        width: 100%;
+        margin: auto;
+    }
+
+    #hero-section h1{
+        text-align: center;
+        font-size: 4rem;
+    }
+    #hero-section h2{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .button-groups{
+        display: flex;
+        justify-content: center;     
+    }
+    .button-groups button{
+        margin: 0 .5rem;
+    }
+    #hero-section #hero-socials{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero-section #hero-socials i{
+        margin: 0 1rem;
+        font-size: 1.7rem;
+    }
+
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    #ul-nav{
+        justify-content: flex-start !important;
+        align-items: center !important;
+        text-align: center;
+    }
+}
+
