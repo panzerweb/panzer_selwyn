@@ -272,7 +272,7 @@
   /* --bg: #f7f7f8;
   --hover-bg: #FFE5F4;
   --hover-text: #E50087; */
-  max-width: 23ch;
+  max-width: 22ch;
   margin: 1.2rem auto;
   text-align: center;
   background: var(--second-accent-color);
@@ -299,12 +299,12 @@
   transition: .3s cubic-bezier(.6,.4,0,1);
 }
 
-.skillcard > strong {
+/* .skillcard > strong {
   display: block;
   font-size: 1.4rem;
   font-family: var(--subheader-font);
   color: var(--primary-text);
-}
+} */
 
 .card span {
   position: absolute;
@@ -323,7 +323,7 @@
 
 .card:hover span {
   top: 0;
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: var(--subheader-font);
 }
 
