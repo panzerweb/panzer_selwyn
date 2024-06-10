@@ -11,6 +11,7 @@
 
 :root{
     --background-color: #121212;
+    --nav-transparent: #0e0c0c80;
     --primary-color: #03DAC5;
     --secondary-color: #BB86FB;
     --primary-text: #F2F6F9;
@@ -23,9 +24,14 @@
     --subheader-font: "Julius Sans One", sans-serif;
     --another-font: "League Spartan", sans-serif;
 }
-
+/* Hamburger Menu Customization Styling */
+.custom-toggler {
+    color: white;
+}
 /* Navbar Section Styling */
-
+.navbar{
+    background: var(--background-color);
+}
 .navbar a span{
     color: var(--primary-text);
     font-family: var(--header-font);
@@ -63,6 +69,11 @@
 .sidebar ul li a:hover{
     color: var(--primary-color);
     border-bottom: 1px solid var(--primary-color);
+}
+
+#header-nav.scrolled {
+    background-color: #0e0c0cce;
+    --secondary-color: #FBFEF9;
 }
 
 
@@ -193,10 +204,12 @@
     object-fit: cover;
     border-radius: 10%;
     transition: all 0.1s linear;
+    cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 #about-us-section #about-us-col img:hover{
+    content: url("./Assets/img/hoverimg.png");
     transform: scale(1.004);
     box-shadow: rgba(63, 124, 165, 0.16) 5px 3px 8px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
@@ -234,6 +247,8 @@
     background: url("./Assets/img/skillsbg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
 }
 #skills-section h1{
     font-size: 5rem;
