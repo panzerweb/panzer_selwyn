@@ -67,3 +67,30 @@ for (let i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+// todo For the Full Details of each Projects, an onclick for href
+
+
+function linkToPanzerWebSite(){
+    window.open("https://sites.google.com/dnsc.edu.ph/panzerweb/home?authuser=1", "_blank");
+}
+
+function linkToPhotoITSite(){
+    window.open("https://sites.google.com/dnsc.edu.ph/group-4-web/home?authuser=1","_blank");
+}
+
+function linkToYouTubeBloodDrive(){
+    window.open("https://youtu.be/HDKlyf5FjGQ?si=mPkP7Jskkg2tYmE9", "_blank");
+}
+
+function linkToGithubPetShop(){
+    window.open("https://github.com/panzerweb/GridLayoutProject.git ", "_blank");
+}
+
+function linkToUtangTracker(){
+    window.open("https://github.com/panzerweb/UtangTrackerUI.git", "_blank");
+}
+
+function linkToHoneyDiasWebsite(){
+    window.open("https://panzerweb.github.io/HoneyDias/", "_blank");
+}
