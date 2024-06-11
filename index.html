@@ -77,7 +77,7 @@
                     </h2>
 
                     <div class="button-groups">
-                      <button class="btn" id="downloadCV">
+                      <button class="btn" id="downloadCV" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Download CV
                       </button>
                       <button class="btn" id="githubAccount" onclick="myGithub()">
@@ -99,6 +99,29 @@
             </div>
         </div>
       </section>
+
+          <!-- todo Not a SECTION, a code for the MODAL -->
+           <!-- * Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Curriculum Vitae</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <img src="./Assets/Curriculum Vitae.png" alt="">
+                          
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <a href="./Assets/Curriculum Vitae.pdf" download>
+                          <button type="button" class="btn btn-primary">Download PDF</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
       <!-- todo Brand Logo Slider Section -->
       <section id="brand-slider">

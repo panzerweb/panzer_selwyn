@@ -158,6 +158,16 @@
     color: var(--primary-color);
 }
 
+/* Modal Styling */
+.modal .modal-dialog .modal-content{
+    background-color: var(--second-accent-color) !important; /* change the background color */
+    border-color: 1px solid var(--primary-color); /* change the border color */
+    color: var(--primary-text);
+  }
+.modal .modal-body img{
+    width: 100%;
+}
+
 /* Brand Logo Slider Styling */
 /* Marquee Section for Brand Logo Slider */
 #brand-slider{

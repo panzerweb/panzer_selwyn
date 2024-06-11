@@ -97,3 +97,11 @@ function linkToUtangTracker(){
 function linkToHoneyDiasWebsite(){
     window.open("https://panzerweb.github.io/HoneyDias/", "_blank");
 }
+
+// todo Modal
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
