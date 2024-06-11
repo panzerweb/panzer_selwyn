@@ -70,6 +70,9 @@ for (let i = 0; i < btns.length; i++) {
 
 // todo For the Full Details of each Projects, an onclick for href
 
+function myGithub(){
+    window.open("https://github.com/panzerweb", "_blank");
+}
 
 function linkToPanzerWebSite(){
     window.open("https://sites.google.com/dnsc.edu.ph/panzerweb/home?authuser=1", "_blank");
