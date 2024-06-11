@@ -16,6 +16,7 @@
     --secondary-color: #BB86FB;
     --primary-text: #F2F6F9;
     --secondary-text: #D9D9D9;
+    --tertiary-text: #067267;
 
     --accent-color: #616161;
     --second-accent-color: #3b3a3a;
@@ -257,6 +258,12 @@
     display: inline;
     width: 100%;
     font-family: var(--header-font);
+}
+
+#skills-section p{
+    font-family: var(--subheader-font);
+    color: var(--tertiary-text);
+    width: 50%;
 }
 
 #skills-section h1::before{
