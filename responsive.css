@@ -58,6 +58,26 @@
         margin: 0 auto;
     }
 
+    /* Projects Section */
+    #project-section #text-row1 h1{
+        font-size: 7rem;     
+    }
+    #project-section #text-row2 p{
+        font-size: 1.1rem;     
+    }
+    .filters{
+        margin: 1.5rem auto;
+        margin-bottom: 1rem;
+        flex-direction: column;
+    }
+    .filter-button{
+        margin: .3rem 0;
+    }
+
+    .project-container img{
+        width: 80%;
+    
+    }
 }
 
 /* Tablet Devices */
