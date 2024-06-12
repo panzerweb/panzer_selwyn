@@ -98,6 +98,20 @@ function linkToHoneyDiasWebsite(){
     window.open("https://panzerweb.github.io/HoneyDias/", "_blank");
 }
 
+function linkToMyGmail(){
+    window.open("mailto:selwynvillar@gmail.com", "_blank");
+}
+
+function linkToInstagram(){
+    window.open("https://www.instagram.com/r.s_panzer/", "_blank");
+}
+
+function linkToFacebook(){
+    window.open("https://www.facebook.com/Helcurt.12345/", "_blank");
+}
+
+
+
 // todo Modal
 const myModal = document.getElementById('myModal')
 const myInput = document.getElementById('myInput')
