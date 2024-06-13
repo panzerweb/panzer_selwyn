@@ -31,7 +31,7 @@
     #slider-small {
         position: relative;
         display: block;
-        width: 70%;
+        width: 60%;
         height: 20rem;
         margin: 150px auto;
         font-family: 'Helvetica Neue', sans-serif;
@@ -84,7 +84,7 @@
 
     #slider {
         position: relative;
-        width: 70%;
+        width: 60%;
         height: 20rem;
         margin: 150px auto;
         font-family: 'Helvetica Neue', sans-serif;
