@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/logos/Brand Logo - 500px.png" type="image/x-icon">
+    <title>Selwyn Villar | Projects</title>
+
+    <!--TODO CDN Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- todo CSS Links -->
+     <link rel="stylesheet" href="project.css">
+     <link rel="stylesheet" href="responsiveProject.css">
+</head>
+<body>
+    <!-- todo Navigational Bar Section -->
+
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="header-nav">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html#hero-section">
+            <img src="../Assets/logos/Brand Logo - 500px.png" alt="">
+            <span>Panzer</span>
+          </a>
+          <button class="navbar-toggler border-0 custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header border-bottom">
+              <a class="navbar-brand" href="../index.html#hero-section">
+                <img src="../Assets/logos/Brand Logo - 500px.png" alt="">
+                <span>Panzer</span>
+              </a>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!-- * Canvas Body -->
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0 justify-content-end" id="ul-nav">
+
+              <div class="d-flex justify-content-center flex-column flex-lg-row align-items-center gap-3 ">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                      <a class="nav-link" href="../index.html#about-us-section">About</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                      <a class="nav-link" href="../index.html#skills-section">Skills</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                      <a class="nav-link" href="../index.html#project-section">Projects</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="../index.html#contact-section">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section id="parallax-section">
+            <div class="container-lg">
+                <!-- todo Intro Row -->
+                <div class="row justify-content-center align-items-center mx-auto">
+                    <div class="col-md-12">
+                        <h1 class="text-center">PROJECTS</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center mx-auto">
+                    <div class="col-md-12 text-center my-5">
+                        <a href="#text-introduction">
+                          <button class="btn">
+                            <i class="bi bi-chevron-double-down"></i>
+                            Scroll Down
+                        </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- todo Slider Carousel for Desktop Devices -->
+             
+             <section id="text-introduction">
+                <div class="container-lg">
+                  <div class="row justify-content-center" id="text-row2">
+                    <div class="col-lg-6 col-12">
+                        <h3>More Projects</h3>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <p>A Slider for more projects throughout the whole year</p>
+                    </div>
+                  </div>
+                </div>
+             </section>
+            <section id="slider">
+                <input type="radio" name="slider" id="s1" checked>
+                <input type="radio" name="slider" id="s2">
+                <input type="radio" name="slider" id="s3">
+                <input type="radio" name="slider" id="s4">
+                <input type="radio" name="slider" id="s5">
+              
+                <label for="s1" id="slide1">
+                    <img src="../Assets/img/Projects/Panzer-Carousel/nochebuena.png" alt="">
+                    <span>Noche Buena By Skusta Clee Cover by BSIT 1B</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+                <label for="s2" id="slide2">
+                    <img src="../Assets/img/Projects/Panzer-Carousel/cryofpugad.png" alt="">
+                    <span>Reenactment of Cry of Pugad Lawin by BSIT 1B</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+                <label for="s3" id="slide3">
+                    <img src="../Assets/img/Projects/Panzer-Carousel/BloodDrive.png" alt="">
+                    <span>Blood Drive Short Film for Multimedia Fest 2023</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+                <label for="s4" id="slide4">
+                    <img src="../Assets/img/Projects/Panzer-Carousel/advocacy.png" alt="">
+                    <span>Think Before You Speak :  Terminating Smart-Shaming on Filipino English Speakers</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+                <label for="s5" id="slide5">
+                    <img src="../Assets/img/Projects/Panzer-Carousel/BloodDrivetrailer.png" alt="">
+                    <span>Blood Drive Trailer</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+
+                
+            </section>
+              <!-- todo for small devices -->
+              <section id="slider-small">
+                <input type="radio" name="slider-small" id="s1-small" checked class="radio-small">
+                <input type="radio" name="slider-small" id="s2-small" class="radio-small">
+                <input type="radio" name="slider-small" id="s3-small" class="radio-small">
+                <input type="radio" name="slider-small" id="s4-small" class="radio-small">
+                <input type="radio" name="slider-small" id="s5-small" class="radio-small">
+              
+                <label for="s1-small" id="slide1-small">
+                    <img src="../Assets/img/Projects/Mobile-Panzer-Carousel (700 x 700 px)/nochebuena.png" alt="">
+                    <span>Noche Buena By Skusta Clee Cover by BSIT 1B</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+                <label for="s2-small" id="slide2-small">
+                    <img src="../Assets/img/Projects/Mobile-Panzer-Carousel (700 x 700 px)/cryofpugad.png" alt="">
+                    <span>Reenactment of Cry of Pugad Lawin by BSIT 1B</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+                <label for="s3-small" id="slide3-small">
+                    <img src="../Assets/img/Projects/Mobile-Panzer-Carousel (700 x 700 px)/BloodDrive.png" alt="">
+                    <span>Blood Drive Short Film for Multimedia Fest 2023</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+                <label for="s4-small" id="slide4-small">
+                    <img src="../Assets/img/Projects/Mobile-Panzer-Carousel (700 x 700 px)/advocacy.png" alt="">
+                    <span>Think Before You Speak :  Terminating Smart-Shaming on Filipino English Speakers</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+                <label for="s5-small" id="slide5-small">
+                    <img src="../Assets/img/Projects/Mobile-Panzer-Carousel (700 x 700 px)/BloodDriveTrailer.png" alt="">
+                    <span>Blood Drive Trailer</span>
+                    <button class="overlay-button">Full Details</button>
+                </label>
+
+                
+            </section>
+        </section>
+      </main>
+
+              <!-- Footer -->
+         <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+              <p class="text-justify">
+                  
+                <blockquote>
+                  “Learning the art of programming, like most other disciplines, consists of first learning the rules and then learning when to break them.”
+
+                </blockquote>
+                <blockquote>
+                  -Joshua Bloch, Effective Java : Programming Language Guide
+                </blockquote>
+
+              </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Contacts</h6>
+            <ul class="footer-links">
+              <li><i class="bi bi-geo-alt-fill"> Prk 6A Bangoy St. Brgy San Francisco, Panabo City</i></li>
+              <li><i class="bi bi-telephone-fill"> 0909-077-4336</i></li>
+              <li><i class="bi bi-envelope-fill"> selwynvillar@gmail.com</i></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+                <li><a href="../index.html#about-us-section">About</a></li>
+                <li><a href="../index.html#skills-section">Skills</a></li>
+                <li><a href="../index.html#project-section">Projects</a></li>
+                <li><a href="../index.html#contact-section">Contact</a></li>              
+            </ul>
+          </div>
+        </div>
+        <hr>  
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by 
+        <a href="#">Selwyn Villar</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="bi bi-instagram"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="bi bi-discord"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="bi bi-telegram"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+      <!-- todo JavaScript -->
+       <script src="../app.js"></script>
+
+    <!-- todo CDN Bootstrap Links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

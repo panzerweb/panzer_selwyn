@@ -1,0 +1,107 @@
+/* todo Mobile Devices */
+@media only screen and (max-width: 767px){
+    #ul-nav{
+        justify-content: flex-start !important;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .offcanvasNavbar{
+        background: var(--background-color);
+    }
+
+    #offcanvasNavbar.scrolled {
+        background-color: #0e0c0cce;
+        --secondary-color: #FBFEF9;
+    }
+    /* Parallax Styling */
+
+    #parallax-section h1{
+        font-size: 7rem;
+    }
+
+    #text-introduction{
+        margin-top: 15rem;
+    }
+
+    #slider{
+        display: none;
+    }
+
+    #slider-small {
+        position: relative;
+        display: block;
+        width: 70%;
+        height: 20rem;
+        margin: 150px auto;
+        font-family: 'Helvetica Neue', sans-serif;
+        perspective: 1400px;
+        transform-style: preserve-3d;
+    }
+
+    #slider-small label,
+    #slider-small label img {
+      object-fit: cover;
+    }
+    /* Caraousel Section */
+    #slider-small label span{
+        font-size: 1rem;
+    }
+    #slider-small label .overlay-button{
+        padding: 1px 10px;
+        font-size: 0.8rem;
+    }
+}
+
+
+/* todo Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    #ul-nav{
+        justify-content: flex-start !important;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    
+    .offcanvasNavbar{
+        background: var(--background-color);
+    }
+
+    #offcanvasNavbar.scrolled {
+        background-color: #0e0c0cce;
+        --secondary-color: #FBFEF9;
+    }
+
+        /* Parallax Styling */
+
+    #parallax-section h1{
+        font-size: 7rem;
+    }
+
+    #text-introduction{
+        margin-top: 15rem;
+    }
+
+    #slider {
+        position: relative;
+        width: 70%;
+        height: 20rem;
+        margin: 150px auto;
+        font-family: 'Helvetica Neue', sans-serif;
+        perspective: 1400px;
+        transform-style: preserve-3d;
+    }
+
+    #slider label,
+    #slider label img {
+      object-fit: cover;
+    }
+    /* Caraousel Section */
+    #slider label span{
+        font-size: 1.2rem;
+    }
+    #slider label .overlay-button{
+        padding: 1px 10px;
+        font-size: 1rem;
+    }
+}
