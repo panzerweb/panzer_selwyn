@@ -79,6 +79,10 @@
 }
 
 
+body{
+  background: var(--background-color);
+}
+
 /* Hero Section Styling */
 #hero-section{
     padding: 6rem 0;
