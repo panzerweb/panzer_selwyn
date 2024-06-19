@@ -107,9 +107,9 @@ body{
     color: var(--primary-text);
     font-family: var(--header-font);
     overflow: hidden;
-    border-bottom: 0.5rem solid orange; /* Adjust color and thickness as needed */
+    border-bottom: 0.5rem solid var(--primary-color); /* Adjust color and thickness as needed */
     white-space: nowrap;
-    animation: typing 5s steps(20) infinite;
+    animation: typing 5s steps(20) normal;
     /* animation-timing-function: linear; */
 }
 
