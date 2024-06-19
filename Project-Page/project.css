@@ -86,6 +86,8 @@ body{
 }
 
 
+
+
 /* Parallax Styling */
 #parallax-section{
     padding: 6rem 0;
@@ -104,6 +106,20 @@ body{
     margin-bottom: 2rem;
     color: var(--primary-text);
     font-family: var(--header-font);
+    overflow: hidden;
+    border-bottom: 0.5rem solid orange; /* Adjust color and thickness as needed */
+    white-space: nowrap;
+    animation: typing 5s steps(20) infinite;
+    /* animation-timing-function: linear; */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 #parallax-section button{
