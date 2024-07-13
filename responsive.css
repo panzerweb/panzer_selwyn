@@ -62,6 +62,10 @@
     #skills-section p{
         width: 100%;
     }
+
+    .skillcard{
+        height: 100%;
+    }
     
 
     /* Projects Section */
@@ -154,6 +158,11 @@
     /* Skills Section */
     #skills-section p{
         width: 75%;
+    }
+
+    .skillcard{
+        width: 75%;
+        height: 100%;
     }
     
 
