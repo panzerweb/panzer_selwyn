@@ -319,7 +319,14 @@ body{
   color: var(--secondary-text);
   font-family: var(--another-font);
 }
- 
+.tech-stack h3{
+  font-family: var(--header-font);
+  font-size: 5rem;
+}
+.tech-stack i{
+  font-size: 3rem;
+  color: var(--primary-text);
+} 
 
 /* Projects Section Styling */
 #project-section{
