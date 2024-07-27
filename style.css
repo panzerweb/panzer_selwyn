@@ -327,6 +327,30 @@ body{
   font-size: 3rem;
 } 
 
+.text-html {
+  color: #ffc107; /* Bootstrap's .text-warning color */
+}
+
+.text-css {
+  color: #0dcaf0; /* Bootstrap's .text-info color */
+}
+
+.text-js {
+  color: orangered;
+}
+
+.text-sql {
+  color: #198754; /* Bootstrap's .text-success color */
+}
+
+.text-java {
+  color: rgb(28, 48, 226);
+}
+
+.text-bootstrap {
+  color: #6f42c1;
+}
+
 /* Projects Section Styling */
 #project-section{
     background: url("./Assets/img/projectbg.png");
