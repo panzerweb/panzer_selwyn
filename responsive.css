@@ -164,6 +164,8 @@
         width: 75%;
         height: 100%;
     }
+
+
     
 
     /* Projects Section */
@@ -196,3 +198,83 @@
     }
 }
 
+
+/* todo Laptop Devices */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    #hero-section h1{
+        font-size: 4.5rem;
+    }
+
+    #hero-section h2{
+        font-size: 1.5rem;
+    }
+
+    .button-groups{
+        display: flex;
+        justify-content: flex-start;     
+    }
+    .button-groups button{
+        margin: 0 .5rem;
+    }
+    #hero-section #hero-socials{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #hero-section #hero-socials i{
+        margin: 0 1rem;
+        font-size: 1.7rem;
+    }        
+    
+    /* Skills Section */
+        #skills-section p{
+            width: 75%;
+        }
+    
+        .skillcard{
+            width: 90%;
+            height: 100%;
+        }
+    
+        .skillcard h5{
+            font-size: 1.5rem;
+        }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px){
+    #hero-section h1{
+        font-size: 4.5rem;
+    }
+
+    #hero-section h2{
+        font-size: 1.5rem;
+    }
+
+    .button-groups{
+        display: flex;
+        justify-content: flex-start;     
+    }
+    .button-groups button{
+        margin: 0 .5rem;
+    }
+    #hero-section #hero-socials{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #hero-section #hero-socials i{
+        margin: 0 1rem;
+        font-size: 1.7rem;
+    }
+    
+    .skillcard{
+        width: 90%;
+        height: 100%;
+    }
+
+    .skillcard h5{
+        font-size: 1.5rem;
+    }
+}
