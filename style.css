@@ -325,7 +325,6 @@ body{
 }
 .tech-stack i{
   font-size: 3rem;
-  color: var(--primary-text);
 } 
 
 /* Projects Section Styling */
